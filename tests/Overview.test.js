@@ -8,7 +8,7 @@ it('tests the tests', () => {
   //https://github.com/testing-library/react-testing-library#basic-example
 
   //REPLACE APP WITH YOUR COMPONENT NAME
-  render(<App/>);
+  render(<Overview/>);
   expect(screen.getByText(('To be used by review component'))).toBeInTheDocument()
 
 
